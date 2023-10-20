@@ -1,0 +1,9 @@
+.clickable {
+    cursor: pointer; /* Change le curseur en main (comme un lien) au survol */
+    padding: 8px; /* Ajoute un peu d'espace autour de l'élément cliquable */
+    border-radius: 4px; /* Arrondit les coins */
+  }
+  
+  .clickable:hover {
+    background-color: #f7992e; /* Change la couleur de fond au survol */
+  }
