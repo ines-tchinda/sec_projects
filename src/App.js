@@ -16,14 +16,14 @@ const App = () => {
 
 
   useEffect(() => {
-    // keycloak.init({
-    //   onLoad: "login-required",
-    //   checkloginIframe: false,
-    //   promiseType: "native"
-    // }).then((authentificated) => {
-    //   console.log("authentificated", authentificated);
-    //   setAuthentificated(authentificated);
-    // })
+    keycloak.init({
+      onLoad: "login-required",
+      checkloginIframe: false,
+      promiseType: "native"
+    }).then((authentificated) => {
+      console.log("authentificated", authentificated);
+      setAuthentificated(authentificated);
+    })
   }, [])
     return (
 <ProjectProvider>
